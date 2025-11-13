@@ -1,0 +1,134 @@
+/* Arquivo: style.css ou App.css */
+
+/* --- Estilos Globais e do Componente App --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Fundo cinza claro */
+    margin: 0;
+    padding: 0;
+}
+
+.minha-rede-de-contatos {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #1877f2; /* Azul vibrante para o título */
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #4b4b4b;
+    font-weight: 400;
+}
+
+/* --- Estilos da Barra de Pesquisa --- */
+.barra-pesquisa-container {
+    padding: 10px 0 20px 0;
+}
+
+.barra-pesquisa-container input {
+    padding: 12px 20px;
+    width: 90%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 25px; /* Bordas arredondadas */
+    font-size: 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+.barra-pesquisa-container input:focus {
+    border-color: #1877f2;
+    outline: none;
+}
+
+/* --- Estilos da Lista de Contatos --- */
+.lista-contatos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os cartões */
+    padding: 20px 0;
+}
+
+/* --- Estilos do Cartão de Usuário --- */
+.cartao-usuario {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+    max-width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.cartao-usuario:hover {
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #1877f2; /* Borda azul na foto */
+}
+
+.cartao-usuario h3 {
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.cartao-usuario p {
+    margin: 3px 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.titulo-cargo {
+    font-weight: bold;
+    color: #000;
+}
+
+.status-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.status-online { background-color: #42b72a; } /* Verde */
+.status-ausente { background-color: #ff9900; } /* Laranja */
+.status-offline { background-color: #bbb; } /* Cinza */
+
+/* --- Estilo para mensagem de Sem Contatos --- */
+.sem-contatos-mensagem {
+    font-size: 1.1em;
+    color: #ff0000;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ffdddd;
+    background-color: #fff0f0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+/* --- Responsividade (Opcional, mas recomendado) --- */
+@media (max-width: 600px) {
+    .barra-pesquisa-container input {
+        width: 80%;
+    }
+    .lista-contatos {
+        padding: 10px;
+    }
+    .cartao-usuario {
+        max-width: 90%;
+    }
+}
