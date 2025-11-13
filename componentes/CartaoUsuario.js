@@ -30,26 +30,3 @@ const estiloStatus = (status) => ({
   marginLeft: '5px'
 });
 
-const CartaoUsuario = ({ contato }) => {
-  return (
-    <div style={estiloCartao}>
-      <img 
-        src={contato.fotoUrl} 
-        alt={`Foto de perfil de ${contato.nome}`} 
-        style={estiloFoto} 
-      />
-      <h2>{contato.nome}</h2>
-      <p>
-        **{contato.titulo}** <span 
-          title={`Status: ${contato.status}`} 
-          style={estiloStatus(contato.status)}
-        ></span>
-      </p>
-      <hr />
-      <p>📧 {contato.email}</p>
-      <p>📞 {contato.telefone}</p>
-    </div>
-  );
-};
-
-export default CartaoUsuario;

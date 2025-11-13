@@ -1,4 +1,3 @@
-// Arquivo: dadosContatos.js
 const contatos = [
   {
     id: 1,

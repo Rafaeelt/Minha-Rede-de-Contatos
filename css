@@ -1,9 +1,6 @@
-/* Arquivo: style.css ou App.css */
-
-/* --- Estilos Globais e do Componente App --- */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5; /* Fundo cinza claro */
+    background-color: #f0f2f5;
     margin: 0;
     padding: 0;
 }
@@ -14,7 +11,7 @@ body {
 }
 
 h1 {
-    color: #1877f2; /* Azul vibrante para o título */
+    color: #1877f2;
     margin-bottom: 5px;
 }
 
@@ -23,7 +20,6 @@ h2 {
     font-weight: 400;
 }
 
-/* --- Estilos da Barra de Pesquisa --- */
 .barra-pesquisa-container {
     padding: 10px 0 20px 0;
 }
@@ -33,7 +29,7 @@ h2 {
     width: 90%;
     max-width: 400px;
     border: 1px solid #ddd;
-    border-radius: 25px; /* Bordas arredondadas */
+    border-radius: 25px;
     font-size: 16px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     transition: border-color 0.3s;
@@ -44,16 +40,14 @@ h2 {
     outline: none;
 }
 
-/* --- Estilos da Lista de Contatos --- */
 .lista-contatos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Espaçamento entre os cartões */
+    gap: 20px;
     padding: 20px 0;
 }
 
-/* --- Estilos do Cartão de Usuário --- */
 .cartao-usuario {
     background-color: #ffffff;
     border-radius: 10px;
@@ -66,7 +60,7 @@ h2 {
 }
 
 .cartao-usuario:hover {
-    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
@@ -76,7 +70,7 @@ h2 {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-    border: 3px solid #1877f2; /* Borda azul na foto */
+    border: 3px solid #1877f2;
 }
 
 .cartao-usuario h3 {
@@ -104,11 +98,10 @@ h2 {
     vertical-align: middle;
 }
 
-.status-online { background-color: #42b72a; } /* Verde */
-.status-ausente { background-color: #ff9900; } /* Laranja */
-.status-offline { background-color: #bbb; } /* Cinza */
+.status-online { background-color: #42b72a; }
+.status-ausente { background-color: #ff9900; }
+.status-offline { background-color: #bbb; }
 
-/* --- Estilo para mensagem de Sem Contatos --- */
 .sem-contatos-mensagem {
     font-size: 1.1em;
     color: #ff0000;
@@ -120,7 +113,6 @@ h2 {
     border-radius: 8px;
 }
 
-/* --- Responsividade (Opcional, mas recomendado) --- */
 @media (max-width: 600px) {
     .barra-pesquisa-container input {
         width: 80%;

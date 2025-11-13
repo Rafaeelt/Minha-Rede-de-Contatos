@@ -1,7 +1,6 @@
-// Arquivo: ListaContatos.js
 import React from 'react';
-import CartaoUsuario from './CartaoUsuario'; // Importa o componente do cartão
-import contatos from './dadosContatos'; // Importa os dados
+import CartaoUsuario from './CartaoUsuario';
+import contatos from './dadosContatos';
 
 const estiloLista = {
   display: 'flex',
@@ -15,7 +14,7 @@ const ListaContatos = () => {
     <div style={estiloLista}>
       {contatos.map((contato) => (
         <CartaoUsuario 
-          key={contato.id} // Chave única é crucial para listas no React
+          key={contato.id} 
           contato={contato} 
         />
       ))}
