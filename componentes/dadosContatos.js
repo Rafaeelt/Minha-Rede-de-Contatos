@@ -24,7 +24,7 @@ const contatos = [
     titulo: "Gerente de Projetos (Scrum Master)",
     email: "carlos.oliveira@exemplo.com",
     telefone: "(31) 95555-1111",
-    fotoUrl: "https://via.placeholder.com/150?text=Carlos",
+    fotoUrl: "",
     status: "offline"
   }
 ];
