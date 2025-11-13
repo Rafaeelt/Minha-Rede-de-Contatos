@@ -6,8 +6,8 @@ const contatos = [
     titulo: "Desenvolvedor Frontend Sênior",
     email: "ariel.silva@exemplo.com",
     telefone: "(11) 98765-4321",
-    fotoUrl: "https://via.placeholder.com/150?text=Ariel", // URL fictícia para imagem
-    status: "online"
+    fotoUrl: "https://br.linkedin.com/in/arielseta", 
+    status: "offline"
   },
   {
     id: 2,
@@ -15,17 +15,17 @@ const contatos = [
     titulo: "Designer UX/UI",
     email: "bianca.souza@exemplo.com",
     telefone: "(21) 91234-5678",
-    fotoUrl: "https://via.placeholder.com/150?text=Bianca",
+    fotoUrl: "https://br.linkedin.com/in/bianca-alves-417b1a149",
     status: "ausente"
   },
   {
     id: 3,
-    nome: "Carlos M. Oliveira",
+    nome: "Cristina M. Oliveira",
     titulo: "Gerente de Projetos (Scrum Master)",
-    email: "carlos.oliveira@exemplo.com",
+    email: ".oliveira@exemplo.com",
     telefone: "(31) 95555-1111",
-    fotoUrl: "",
-    status: "offline"
+    fotoUrl: "https://br.linkedin.com/in/cristinas-oliveira",
+    status: "online"
   }
 ];
 
