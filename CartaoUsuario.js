@@ -1,7 +1,5 @@
-// Arquivo: CartaoUsuario.js
 import React from 'react';
 
-// Estilos básicos inline apenas para demonstração
 const estiloCartao = {
   border: '1px solid #ddd',
   borderRadius: '8px',
