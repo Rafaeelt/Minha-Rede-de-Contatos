@@ -3,7 +3,7 @@ import React from 'react';
 import ListaContatos from './ListaContatos'; 
 
 const Titulo = ({ texto }) => <h1>{texto}</h1>;
-const Saudacao = ({ nome }) => <h2>Olá, {nome}! Sua rede tem a seguir:</h2>;
+const Saudacao = ({ nome }) => <h2> Olá mundo! {nome} Sua rede tem a seguir: </h2>;
 
 const App = () => {
   return (
